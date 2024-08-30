@@ -20,5 +20,6 @@ gs-9540-linux-x86_64
 # Ignore the README file
 README.md
 
-# Ignore the .dockerignore file itself
+# Ignore the .dockerignore and .gitignore files
 .dockerignore
+.gitignore

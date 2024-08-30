@@ -1,0 +1,33 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore the uploads and processed directories
+uploads/
+processed/
+
+# Ignore environment variables and configuration files
+.env
+.env.template
+
+# Ignore the Ghostscript binary
+gs-9540-linux-x86_64
+
+# Ignore the README file
+README.md
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore any system-specific files
+.DS_Store
+Thumbs.db
