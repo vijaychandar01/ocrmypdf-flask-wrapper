@@ -1,0 +1,24 @@
+# Ignore the Python cache directory
+app/__pycache__/
+
+# Ignore the 'uploads' directory
+uploads/
+
+# Ignore the 'processed' directory
+processed/
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore any environment files that should not be included in the Docker image
+.env
+.env.template
+
+# Ignore the Ghostscript binary (assuming it's provided locally and not needed inside the Docker container)
+gs-9540-linux-x86_64
+
+# Ignore the README file
+README.md
+
+# Ignore the .dockerignore file itself
+.dockerignore
